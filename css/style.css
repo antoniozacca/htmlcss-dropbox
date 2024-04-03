@@ -7,6 +7,10 @@
 header{
     padding: 15px 0;
 }
+footer{
+    padding: 75px 0;
+    background-color: black;
+}
 .container-padding{
     padding: 10px;
 }
@@ -62,6 +66,7 @@ h1{
 /* righe */
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 /* fine righe */
 /* colonne */
@@ -80,6 +85,9 @@ h1{
 .col-33{
     width: calc(100% / 3);
 }
+.col-20{
+    width: 20%;
+}
 /* fine colonne */
 .content{
     border: 1px solid black;
@@ -92,9 +100,55 @@ h1{
 .height-100{
     height: 100px;
 }
+.height-300{
+    height: 300px;
+}
+.height-50{
+    height: 50px;
+}
 .text-align-center{
     text-align: center;
 }
 .bg-orange{
     background-color: orange;
+}
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.border-black{
+    border: 1px solid black;
+}
+.square-section{
+    display: flex;
+}
+.square{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    background-color: silver;
+}
+.small-square{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+.height-full{
+    height: 100%;
+}
+.bg-lightskyblue{
+    background-color: lightskyblue;
+}
+.padding-top{
+    padding-top: 50px;
+}
+.padding-bottom{
+    padding-bottom: 50px;
+}
+.margin-bottom-75{
+    margin-bottom: 75px;
 }
