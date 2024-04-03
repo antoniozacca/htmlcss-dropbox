@@ -8,7 +8,7 @@ header{
     padding: 15px 0;
 }
 footer{
-    padding: 75px 0;
+    padding: 70px 0;
     background-color: black;
 }
 .container-padding{
@@ -23,8 +23,6 @@ footer{
 .row-left{
 display: flex;
 align-items: center;
-}
-.row-right{
 }
 a{
     text-decoration: none;
@@ -76,7 +74,6 @@ h1{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 100px;
 }
 /* fine contenitori */
 /* righe */
@@ -99,10 +96,10 @@ h1{
     width: 40%;
 }
 .col-33{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
 }
 .col-20{
-    width: 20%;
+    width: calc(20% - 20px);
 }
 /* fine colonne */
 .content{
@@ -167,3 +164,14 @@ h1{
 .margin-bottom-75{
     margin-bottom: 75px;
 }
+.padding-top-10{
+    padding-top: 10px;
+}
+.background-img-partner{
+    background-image: url(../img/partner.png);
+    background-size: cover;
+}
+.dim-img-business{
+    height: 200px;
+}
+
