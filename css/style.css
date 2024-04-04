@@ -124,6 +124,9 @@ ul li{
 .height-300{
     height: 300px;
 }
+.min-height{
+    min-height: 400px;
+}
 .height-50{
     height: 50px;
 }
