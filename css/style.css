@@ -10,6 +10,7 @@ header{
 footer{
     padding: 70px 0;
     background-color: black;
+    color: white;
 }
 .container-padding{
     padding: 10px;
@@ -51,6 +52,9 @@ align-items: center;
 .margin-top-100{
     margin-top: 100px;
 }
+.margin-top-50{
+    margin-top: 50px;
+}
 .margin-left-70{
     margin-left: 70px;
 }
@@ -60,6 +64,9 @@ h1{
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 0;
+}
+ul li{
+    list-style-type: none;
 }
 .container-content{
     display: flex;
@@ -123,9 +130,6 @@ h1{
 .text-align-center{
     text-align: center;
 }
-.bg-orange{
-    background-color: orange;
-}
 .border-bottom{
     border-bottom: 1px solid black;
 }
@@ -163,6 +167,9 @@ h1{
 .padding-bottom{
     padding-bottom: 50px;
 }
+.padding-20{
+    padding: 20px;
+}
 .margin-bottom-75{
     margin-bottom: 75px;
 }
@@ -183,6 +190,9 @@ h1{
 }
 .padding-bottom-40{
     padding-bottom: 40px;
+}
+.padding-bottom-25{
+    padding-bottom: 25px;
 }
 .padding-bottom-83{
     padding-bottom: 83px;
@@ -213,6 +223,9 @@ h1{
 .padding-left{
     padding-left: 20px;
 }
+.padding-left-260{
+    padding-left: 260px;
+}
 .color-gray{
     color: gray;
 }
@@ -220,4 +233,13 @@ h1{
     color: rgb(37, 37, 37);
     padding: 10px;
     background-color: white;
+}
+.font{
+    font-size: x-large;
+}
+main hr{
+    width: 900px;
+}
+footer hr{
+    width: 100px;
 }
